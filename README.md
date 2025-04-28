@@ -22,7 +22,7 @@ Site web officiel de la Fanfare de l'Église Baptiste Eli d'Adjamé, présentant
 - Organisation chronologique de la galerie
 - Thème aux couleurs de l'église (bleu royal et or)
 
-## 🛠 Technologies utilisées
+## 🛠️ Technologies utilisées
 - HTML5
 - CSS3 (Variables CSS, Flexbox, Grid, Animations)
 - JavaScript vanilla
@@ -83,4 +83,4 @@ Site web officiel de la Fanfare de l'Église Baptiste Eli d'Adjamé, présentant
 Pour toute question ou suggestion concernant le site web de la Fanfare de l'Église Baptiste Eli d'Adjamé, veuillez nous contacter via le formulaire de contact sur le site.
 
 ## 📜 Licence
-© 2024 Fanfare de l'Église Baptiste Eli d'Adjamé. Tous droits réservés. 
+© 2024 Fanfare de l'Église Baptiste Eli d'Adjamé. Tous droits réservés.
