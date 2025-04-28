@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil - Fanfare de l'Église Baptiste Eli d'Adjamé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+    <link rel="mask-icon" href="images/logo.png" color="#5bbad5">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-group">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Logo Fanfare de l'Église" class="logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/RA.png" alt="Logo RA" class="logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/eglise.png" alt="Logo Église" class="logo">
+                </div>
+            </div>
+            <h1>Fanfare de l'Église Baptiste Eli d'Adjamé</h1>
+        </div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="membres.html">Membres</a>
+            <a href="conseiller.html">Conseiller</a>
+            <a href="evenements.html">Événements</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Louons ensemble<br>par la musique</h2>
+                <p>Découvrez notre fanfare passionnée et engagée dans la louange</p>
+                <a href="contact.html" class="btn">Nous rejoindre</a>
+            </div>
+            <img src="images/fond.jpg" alt="Fanfare en concert">
+        </section>
+    
+        <section id="presentation">
+            <h2>Qui sommes-nous ?</h2>
+            <p>Nous sommes la fanfare de l'Eglise Baptiste Eli d'Adjamé, passionnés de musique et de louange.</p>
+        </section>
+    
+        <section id="prochains-evenements">
+            <h2>Prochains Événements</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-item">
+                        <img src="images/repriseBETHEL2.jpg" alt="Céremonie de reprise des activités de la fanfare de l'Association Baptiste Bethel">
+                        <div class="carousel-caption">
+                            <h3+>Céremonie de reprise des activités de la fanfare de l'Association Baptiste Bethel</h3+>
+                            <p>6 avril 2025</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/repriseELIJAH1.jpg" alt="Céremonie de reprise des activités de la fanfare notre l'eglise">
+                        <div class="carousel-caption">
+                            <h3+>Céremonie de reprise des activités de la fanfare notre l'eglise</h3+>
+                            <p>13 avril 2025</p>
+                        </div>
+                    </div>
+                    <style>
+                        h3+ {
+                            color: var(--secondary-color);
+                            font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+                            font-weight: bold;
+                            font-family: 'inter', sans-serif;
+                            text-align: center;
+                        }
+                    </style>
+                </div>
+                <button class="carousel-button prev">&#10094;</button>
+                <button class="carousel-button next">&#10095;</button>
+                <div class="carousel-dots"></div>
+            </div>
+
+            <div class="event-grid">
+                <div class="event-card">
+                    <h3>Céremonie de reprise des activités de la fanfare de l'Association Baptiste Bethel</h3>
+                    <p class="event-date">6 avril 2025</p>
+                    <p class="event-location">Église Eli d'Adjamé</p>
+                    <a href="evenements.html" class="btn">En savoir plus</a>
+                </div>
+                <div class="event-card">
+                    <h3>Céremonie de reprise des activités de la fanfare notre l'eglise</h3>
+                    <p class="event-date">13 avril 2025</p>
+                    <p class="event-location">Église Eli d'Adjamé</p>
+                    <a href="evenements.html" class="btn">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Logo Fanfare">
+            </div>
+            <p class="footer-text">Elijah Baptist Church Band</p>
+            <p>© 2025 Fanfare de l'Église Baptiste Eli d'Adjamé</p>
+            <p>Made with ❤️ by Amb. Daniel SHOFELA</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

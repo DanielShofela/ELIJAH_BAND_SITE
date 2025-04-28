@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - Fanfare de l'Église Baptiste Eli d'Adjamé</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
+    <link rel="mask-icon" href="images/logo.png" color="#5bbad5">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo-group">
+                <div class="logo-container">
+                    <img src="images/logo.png" alt="Logo Fanfare de l'Église" class="logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/RA.png" alt="Logo RA" class="logo">
+                </div>
+                <div class="logo-container">
+                    <img src="images/eglise.png" alt="Logo Église" class="logo">
+                </div>
+            </div>
+            <h1>Fanfare de l'Église Baptiste Eli d'Adjamé</h1>
+        </div>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="membres.html">Membres</a>
+            <a href="conseiller.html">Conseiller</a>
+            <a href="evenements.html">Événements</a>
+            <a href="galerie.html">Galerie</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <button class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+    <main>
+        <h2>Contactez-nous</h2>
+        
+        <section id="formulaire-contact">
+            <form id="contact-form"
+            action="https://formspree.io/f/xldjwdlo"
+            method="POST"
+            >
+                <label for="nom">Nom complet</label>
+                <input type="text" id="nom" name="nom" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Logo Fanfare">
+            </div>
+            <p class="footer-text">Elijah Baptist Church Band</p>
+            <p>© 2025 Fanfare de l'Église Baptiste Eli d'Adjamé</p>
+            <p>Made with ❤️ by Amb. Daniel SHOFELA</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
