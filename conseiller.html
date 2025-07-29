@@ -50,42 +50,22 @@
     </header>
     <main> 
         <h2>Nos Conseilers dans l'Eglise</h2>
-        <div class="leadership-container">
-            <div class="leadership-member">
+        <div class="membres-grid">
+            <div class="membre-card">
                 <img src="images/presi.jpeg" alt="Président des RA">
-                <div class="membre-info">
-                    <h4>Amb. Japhet OLABIYI</h4>
-                    <h3->RA Direct</h3->
-                    <p>Président des Royal Ambassadors de l'Eglise Baptiste Eli</p>
-                    <p>Président depuis 2023</p>
-                    <style>
-                        h3- {
-                            color: var(--secondary-color);
-                            font-size: clamp(1.2rem, 2.5vw, 1.5rem);
-                            font-weight: bold;
-                            font-family: 'Times New Roman', Times, serif;
-                        }
-                    </style>
-                </div>
-            </div>
-            <div class="leadership-member">
-                <img src="images/bm.jpeg" alt="Adjoint Band Master">
-                <div class="membre-info">
-                    <h4>Amb. Daniel Oluwabunkonla Ayomide SHOFELA</h4>
-                    <h3->Church Band Master</h3->
-                    <p>Chef de la fanfare depuis 2021</p>
-                    <p>Membre depuis 2015</p>
-                    <style>
-                        h3- {
-                            color: var(--secondary-color);
-                            font-size: clamp(1.2rem, 2.5vw, 1.5rem);
-                            font-weight: bold;
-                            font-family: 'Times New Roman', Times, serif;
-                        }
-                    </style>
-                </div>
+                <h4>Amb. Japhet OLABIYI</h4>
+                <h3>RA Direct</h3>
+                <p>Président des Royal Ambassadors de l'Eglise Baptiste Eli</p>
+                <div>Président depuis 2023</p>
             </div>
         </div>
+            <div class="membre-card">
+                <img src="images/bm.jpeg" alt="Adjoint Band Master">
+                <h4>Amb. Daniel Oluwabunkonla Ayomide SHOFELA</h4>
+                <h3>Church Band Master</h3>
+                <p>Chef de la fanfare depuis 2021</p>
+                <p>Membre depuis 2015</p>
+            </div>
         <h2>Nos Conseilers à l'extérieur</h2>
         <div class="membres-grid">
             <div class="membre-card">
@@ -112,6 +92,13 @@
         </div>
     </main>
     
+    <!-- Modal pour l'affichage des images -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="imageCaption"></div>
+    </div>
+
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
